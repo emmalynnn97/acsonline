@@ -1,0 +1,238 @@
+/*
+Theme Name: Arizona Online Charter School
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Template: twentytwenty
+Author: Emma Lynn
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog,one-column,custom-background,custom-colors,custom-logo,custom-menu,editor-style,featured-images,footer-widgets,full-width-template,rtl-language-support,sticky-post,theme-options,threaded-comments,translation-ready,block-patterns,block-styles,wide-blocks,accessibility-ready
+Version: 1.6.1611773794
+Updated: 2021-01-27 18:56:34
+
+*/
+@import "variables";
+h1,h2,h3,h4,h5,h6,p,li,ul,ol,span,a{
+	font-family:$primary-font;
+	margin:0;
+	padding:0;
+}
+*,*::before,*::after{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background:white;
+}
+.staff-members{
+	padding:.75em .5em;
+	@include flex(row, center, flex-start);
+	flex-wrap:wrap;
+	.staff-member{
+		padding:.75em .15em;
+		text-align:center;
+		background:#eee;
+		width:32%;
+		margin:.25em;
+		@include flex(column, flex-start, center);
+		img{
+			width:auto;
+			height:250px;
+			border-radius:6px;
+		}
+		.staff-title{
+			color:$acs-navy;
+			font-size:2em;
+			margin:0;
+			padding:0;
+		}
+		.staff-position{
+			font-size:1.15em;
+			color:$acs-navy;
+			font-weight:600;
+		}
+		.staff-email{
+			color:$acs-red;
+		}
+	}
+	.staff-member.has-bio{
+		padding:1.5em;
+		width:80%;
+	}
+}
+body:not(.overlay-header) .primary-menu ul{
+	background-color:white !important;
+}
+.current_page_item{
+	>a{color:$acs-navy !important;}
+	.icon{
+		color:$acs-navy !important;
+	}
+}
+.current_page_parent{
+	.icon{
+		color:$acs-navy !important;
+	}
+}
+.sub-menu.active{
+	border-color:$acs-red !important;
+	.menu-item{
+		border-color:$acs-red !important;
+	}
+}
+.primary-menu.current_page_ancestor{
+	a{text-decoration:none !important;}
+	.sub-menu{
+		a{
+			color:$acs-red;
+		}
+	}
+	}
+#site-header{
+	height:60px;
+	.header-toggles,.mobile-search-toggle{
+		display:none;
+	}
+	.header-titles{
+		position:relative;
+		top:10px;
+	}
+	.header-inner{
+		height:60px;
+	}
+	
+	li{
+		a{
+			color:$acs-red;
+			text-transform:uppercase;
+			text-decoration:none;
+			&:hover{
+				color:$acs-navy;
+			}
+		}
+	}
+}
+
+footer{
+	background-color:$acs-navy !important;
+	.powered-by-wordpress,.to-the-top,p{
+		color:white;
+	}
+}
+.default-content{
+	background:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	padding:1em 2em;
+	.outer{
+		display:flex;
+		justify-content:flex-start;
+		align-items:flex-start;
+		flex-direction:column;
+		width:100%;
+		height:100%;
+		.col{
+			display:flex;
+			flex-direction:column;
+			margin:1em 0;
+			padding:1em;
+			width:33%;
+		}
+		.row{
+			display:flex;
+			justify-content:center;
+			align-items:flex-start;
+			flex-wrap:wrap;
+		}
+	}
+	h2{
+		font-size:1.75em;
+		color:$acs-navy;
+	}
+	h3{
+		font-size:1.25em;
+		color:$acs-navy;
+	}
+	p{
+		margin:.25em 0;
+		font-weight:300;
+		.acs-btn{
+		text-decoration: none;
+    	text-decoration-color: #dc2133;
+    	border: 2px solid #dc2133;
+    	background: rgba(220,33,51,.75);
+    	color: white;
+    	padding: .25em 1em;
+		font-family:$primary-font;
+		font-size:1.25em;
+		transition:.25s ease;
+		&:hover{
+			background:rgba(220,33,51,1)
+		}	
+}
+	}
+}
+footer{
+	.section-inner{
+		justify-content:center !important;
+		align-items:center !important;
+	}
+	.footer-credits{
+		display:block;
+	}
+	div,.to-the-top,.footer-phone{
+		margin:auto 1em;
+	}
+	.campus-links{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin:1em auto;
+		flex-wrap:wrap;
+		.campus-link{
+			margin:0 2em;
+			text-align:center;
+			h3{
+				color:white;
+				font-size:1.5em;
+			}
+			img{
+				width:125px;
+				transition:.15s ease;
+			}
+			:hover img{
+				transform:scale(1.06);
+			}
+		}
+	}
+}
+@media(max-width:1000px){
+	.staff-member{
+		width:80% !important;
+	}
+}
+@media(max-width:768px){
+	
+	.default-content{
+		.outer{
+			.col{
+				width:100%;
+			}
+		}
+	}
+	.modal-menu{
+		.menu-item{
+			a{color:$acs-navy;}
+		}
+	}
+	footer .section-inner{
+	display:flex;
+	justify-content:space-evenly !important;
+	align-items:center;
+	flex-wrap:wrap;
+}
+}
+@import "hero";
+@import "pillars";

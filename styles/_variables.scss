@@ -1,0 +1,16 @@
+@mixin flex($direction : row, $justify : center, $align : center){
+	display:flex;
+	flex-direction:$direction;
+	justify-content:$justify;
+	align-items:$align;
+}
+
+$acs-red:rgb(220, 33, 51);
+$acs-navy:rgb(18, 34, 52);
+$primary-font: 'Rubik', sans-serif;
+$home-hero-height:75vh;
+$hero-height:50vh;
+$home-hero-bg-image:'/wp-content/uploads/2021/01/iStock-1045331032-1.jpg';
+$hero-font-color:#fff;
+$about-hero-bg-image:'/wp-content/uploads/2021/02/iStock-1223522895.jpg';
+$pillars-height:27vh;

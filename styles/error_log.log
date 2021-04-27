@@ -1,0 +1,27 @@
+01/27/21 7:07:46: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:07:48: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:07:51: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:07:53: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:07:57: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:07:59: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:08:01: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:08:02: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:08:15: style.scss - parse error: failed at `import "_variables";` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 13
+01/27/21 7:20:47: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:20:50: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:20:51: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:20:53: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:20:56: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:20:57: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:21:13: style.scss - Undefined variable $home-hero-bg: line: 3
+01/27/21 7:24:50: style.scss - parse error: failed at `$hero-bg-image:'/wp-content/uploads/2021/01/iStock-1045331032-1.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 5
+01/27/21 7:24:57: style.scss - parse error: failed at `$hero-bg-image:'/wp-content/uploads/2021/01/iStock-1045331032-1.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 5
+01/27/21 8:05:29: style.scss - Undefined variable $acs-blue: line: 43
+02/04/21 10:19:50: style.scss - Undefined variable $header-font: line: 26
+02/04/21 10:19:55: style.scss - Undefined variable $header-font: line: 26
+02/10/21 8:16:02: style.scss - parse error: failed at `$about-hero-bg-image:'/wp-content/uploads/2021/02/iStock-1223522895.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 8, at column 1
+02/10/21 8:16:14: style.scss - parse error: failed at `$about-hero-bg-image:'/wp-content/uploads/2021/02/iStock-1223522895.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 8, at column 1
+02/10/21 8:16:27: style.scss - parse error: failed at `$about-hero-bg-image:'/wp-content/uploads/2021/02/iStock-1223522895.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 8, at column 1
+02/10/21 8:16:33: style.scss - parse error: failed at `$about-hero-bg-image:'/wp-content/uploads/2021/02/iStock-1223522895.jpg'` /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/_variables.scss on line 8, at column 1
+03/23/21 9:19:09: style.scss - Undefined variable $acs-blue: /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 31, at column 2
+03/23/21 9:19:19: style.scss - Undefined variable $acs-blue: /nas/content/live/arizonacharter/wp-content/themes/arizonaonlinecharterschool/styles/style.scss on line 31, at column 2

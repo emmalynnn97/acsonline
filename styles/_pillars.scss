@@ -1,0 +1,32 @@
+.acs-pillars{
+	background:$acs-red;
+	min-height:$pillars-height;
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	flex-direction:column;
+	padding:1em;
+	h2{
+		color:white;
+		text-transform:uppercase;
+		text-align:center;
+	}
+	.pillars{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-wrap:wrap;
+		.pillar{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			margin:0 1em;
+			span{
+				color:white;
+			}
+		}
+	}
+	
+}
